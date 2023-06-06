@@ -9,7 +9,15 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "konva": "^9.0.2",
+    "roulette": "^0.0.0",
+    "sass-loader": "^13.3.1",
+    "vue": "^3.2.13",
+    "vue-confetti-explosion": "^1.0.2",
+    "vue-konva": "^3.0.2",
+    "vue-particles": "^1.0.9",
+    "vue-timers": "^2.0.4",
+    "vue3-roulette": "^0.3.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
