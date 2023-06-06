@@ -1,32 +1,41 @@
-# roulette
-Este proyecto es una aplicación de ruleta desarrollada con Vue 3 y la librería de componentes vue3-roulette. El propósito de la aplicación es permitir a los usuarios "girar la ruleta" para ganar premios variados.
 
-Características
-El código implementa las siguientes características:
+# Vue3-roulette
 
-Una ruleta gráfica que se puede girar.
-Los ítems en la ruleta están predefinidos en el código y pueden ser cambiados a su gusto.
-Cada ítem tiene un peso asociado que determina la probabilidad de que sea seleccionado.
-Los ítems pueden ser habilitados o deshabilitados, permitiendo cierta flexibilidad en la configuración.
-Se muestra un popup cada vez que la ruleta se detiene en un ítem, permitiendo al usuario "aceptar" o "rechazar" el premio.
-Se lleva un seguimiento de la cantidad de premios ganados por el usuario y se limita la cantidad de ciertos premios que se pueden ganar.
-Librerías Utilizadas
-Este proyecto utiliza las siguientes librerías:
+This project is a roulette application developed with Vue 3 and the vue3-roulette component library. The purpose of the application is to allow users to "spin the wheel" and win various prizes.
 
-vue3-roulette: Esta es la librería principal utilizada para implementar la ruleta. Proporciona un componente de ruleta personalizable que se puede integrar fácilmente en cualquier aplicación Vue.
-vue-confetti-explosion: Esta librería se utiliza para proporcionar una animación de confeti que se despliega cuando el usuario gana un premio.
-Cómo usar
-Para utilizar este código en tu propio proyecto:
+## Features
 
-Clona o descarga este repositorio.
-Instala las dependencias del proyecto con npm install.
-Corre el proyecto con npm run serve.
-Personaliza los ítems de la ruleta, los pesos, los límites de los premios y cualquier otra característica según sea necesario.
-Próximas Mejoras
-Algunas ideas para futuras mejoras incluyen:
+- A graphical roulette wheel that can be spun.
+- The items on the wheel are predefined in the code and can be changed to your liking.
+- Each item has an associated weight that determines the probability of it being selected.
+- Items can be enabled or disabled, allowing for flexibility in configuration.
+- A popup is displayed each time the wheel stops on an item, allowing the user to "accept" or "reject" the prize.
+- The number of prizes won by the user is tracked, and the number of certain prizes that can be won is limited.
 
-Permitir la personalización de la ruleta y los premios a través de una interfaz gráfica en lugar de tener que modificar el código.
-Añadir la capacidad de guardar el estado del juego en una base de datos para permitir a los usuarios continuar donde lo dejaron.
-Implementar un sistema de autenticación para permitir que múltiples usuarios jueguen en la misma aplicación.
-Contribuciones
-Las contribuciones son bienvenidas. Por favor, abre una issue o realiza un pull request si tienes alguna mejora que te gustaría implementar o sugerir.
+
+## Libraries
+- vue3-roulette: This is the main library used to implement the roulette. It provides a customizable roulette component that can be easily integrated into any Vue application.
+- vue-confetti-explosion: This library is used to provide a confetti animation that is triggered when the user wins a prize.
+
+## Installation & Usage
+
+Install my-project with npm
+
+```bash
+git clone https://github.com/asu101/roulette.git
+```
+    
+```bash
+npm install
+```
+
+```bash
+npm run serve
+```
+The application will be running at http://localhost:8080/.
+
+
+## Contributing
+
+Contributions are welcome. Please open an issue or submit a pull request if you have any enhancements you would like to implement or suggest.
+
